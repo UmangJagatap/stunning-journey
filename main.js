@@ -38,7 +38,7 @@ const getHourlyForecast = async ({ name: city }) => {
 
 const formatTemperature = (temp) => `${temp?.toFixed(1)}°`;
 const createIconUrl = (icon) =>
-  `http://openweathermap.org/img/wn/${icon}@2x.png`;
+  `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
 const loadCurrentForecast = ({
   name,
